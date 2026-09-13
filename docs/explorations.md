@@ -1,26 +1,29 @@
-# Photo-to-art explorations · 照片创意实验室
+# 17 newer Imagebook styles · 17 种新风格
 
 [English guide](../README.md) · [中文指南](../README.zh-CN.md)
 
-17 directions, one beach photograph. These are real creative drafts, not a promise of identical results.
+These 17 styles complete the 24-style Imagebook. Each currently has one beach study; examples show
+real generations rather than a promise of identical results on every photograph.
 
-17 种方向，同一张海滩照片。这些是实际生成的创意样张，供挑选，不代表每张照片都能复现相同效果。
-原有 7 种风格有海滩、咖啡露台、树下街巷案例；本页的新方向目前仅做海滩探索。
+这 17 种新风格和最早的 7 种一起组成完整的 24 种 Imagebook 风格。这里每种目前使用同一张
+海滩照片展示；样张都是真实生成结果，但不代表每张照片都会得到完全相同的画面。
 
 ![Source beach photo with three seated companions](../assets/examples/source-beach-sunset.webp)
 
 ## Try a direction · 试一种画法
 
-Attach your photo and name a direction; the Skill reads the matching study prompt below.
+Attach your photo and name a style; the Skill reads its matching file under `styles/`.
 
 ```text
-用 $albert-imagebook，把这张照片做成探索版「蓝线贴纸」，不加字。
-Use $albert-imagebook. Try the experimental pixel-coast style on this photo.
+用 $albert-imagebook，把这张照片做成「蓝线贴纸」，不加字。
+Use $albert-imagebook. Turn this photo into Pixel Coast, no text.
 ```
 
-Prompts below are reusable directions distilled from the study. The linked images were made with
-the original beach-specific prompts; the reusable versions have not been separately regenerated.
-生成和排版使用共享 Skill 流程；提示词已从海滩首稿提炼为通用方向，尚未单独回归验证。
+Every style below also has a first-class `styles/<id>/prompt.md` file, so `$albert-imagebook`
+discovers and runs all 24 styles through the same workflow. The linked images were made with the
+original beach-specific prompts; the reusable versions have not been regenerated across subjects.
+生成和排版使用共享 Skill 流程；每种风格也都有独立的 `styles/<id>/prompt.md`，因此 24 种风格
+都由 `$albert-imagebook` 统一发现和调用。通用提示词尚未在多种题材上分别回归生成。
 65% 是构图指导而非自动测量保证；部分首稿偏满，蓝晒和漫画的表现也有继续改进空间。
 字景需指定文字；其他方向默认不加新字。
 

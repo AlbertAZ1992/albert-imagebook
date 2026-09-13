@@ -6,13 +6,13 @@ description: >-
   照片贴纸, named Imagebook styles, or original-and-art comparisons.
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
   author: AlbertAZ1992
 ---
 
 # Albert’s Imagebook
 
-One installable Skill, one shared image workflow, a growing library of style prompts.
+One installable Skill, one shared image workflow, and 24 photo-to-art styles.
 Resolve package paths relative to this file, including when installed outside the repository.
 
 ## Select the source and style
@@ -26,15 +26,14 @@ both Chinese and English names. The directory name is the stable style ID. A new
 is immediately usable; no catalog or extra Skill installation is required.
 
 Use a named style directly. If asked to recommend, offer a few source-specific choices; if asked
-to choose and generate, choose and proceed. For experimental names or IDs, read the matching section in
-[docs/explorations.md](docs/explorations.md) and use its reusable study prompt. These 17 directions
-have one beach example each; describe them as experimental, not broadly validated. For an unfamiliar
-style with a supplied visual reference, derive its material and composition from that reference.
-Clarify only when neither the name nor the reference establishes a usable direction. Sample artworks are for browsing, not image references unless requested.
+to choose and generate, choose and proceed. Some newer styles currently have one beach study rather
+than several source examples, but they are selected and run through the same prompt-file workflow.
+For an unfamiliar style with a supplied visual reference, derive its material and composition from
+that reference. Clarify only when neither the name nor the reference establishes a usable direction.
+Sample artworks are for browsing, not image references unless requested.
 
 Read the selected prompt completely. For established styles, pass everything after `## Prompt` to the image model
-unchanged. For studies, use only the selected section’s reusable prompt, excluding gallery copy.
-Follow it with one delivery block and any explicit user requirements. The style prompt
+unchanged. Follow it with one delivery block and any explicit user requirements. The style prompt
 owns interpretation, palette, material, mark-making and optional typography. Do not add a
 second art direction, motif quota, color plan, caption package or copied sample composition.
 

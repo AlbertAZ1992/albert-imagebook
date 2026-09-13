@@ -1,8 +1,8 @@
 {
   "name": "albert-imagebook",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
-  "description": "One growing photo-to-art Skill for Codex, with illustrations, stickers, paper cutouts, pixel art, and exact-size comparisons.",
+  "description": "One Codex photo-to-art Skill with 24 illustration, sticker, paper, print, collage, and pixel styles.",
   "keywords": [
     "agent-skills",
     "codex",

@@ -4,14 +4,14 @@
 
 ### 把拍下的瞬间，变成想留下来的小作品。
 
-**一个 Skill，一个指令，一本会继续长大的照片风格书。**
+**24 种图片风格，一个 Skill，一条指令。**
 
-[English](README.md) · [挑一种风格](#风格手记) · [开始使用](#开始使用) · [添加风格](CONTRIBUTING.md)
+[English](README.md) · [24 种风格](#style-book) · [开始使用](#开始使用) · [添加风格](CONTRIBUTING.md)
 
 </div>
 
 **上传照片 → 选一种画法 → 保存作品。** 把人物、旅行和日常照片，变成插画、贴纸和纸上小作品，
-也可以得到原图与作品各占一半的对照图。安装一个 Skill，就能使用全部风格。
+也可以得到原图与作品各占一半的对照图。安装一个 Skill，就能使用全部 24 种风格。
 
 | 你提供的照片 | 蜡笔小记会这样记下它 |
 | --- | --- |
@@ -26,23 +26,36 @@
 7 个可以独立安装的 Skills。这样便于逐个验证，却也让同一套创作体验变成了 7 个需要分别发现、
 安装和调用的产品。
 
-Albert's Imagebook 把共用流程和全部风格收进一个 `$albert-imagebook`。安装一次，直接说出
+Albert's Imagebook 把共用流程和 24 种风格收进一个 `$albert-imagebook`。安装一次，直接说出
 想要的风格，之后换风格也不用记新指令。新增画法只需要加入同一本风格书，不再增加新的 SKU。
 后续风格会在这里继续更新；旧版独立 Skills 仍保留给已有用户使用。
 
-## 新探索：照片变贴纸、卡纸与像素画
+<a id="style-book"></a>
 
-**7 种已有风格 + 17 种探索方向，安装一个 Skill。**
-已有风格覆盖三种题材；探索版先用同一张海滩照片展示差异，适合尝鲜和挑选。
+## 24 种图片风格
 
-| 蓝线贴纸 | 几何卡纸 | 像素假日 |
-| --- | --- | --- |
-| ![深蓝单色线描海滩贴纸](docs/assets/exploration/navy-outline-standalone.webp) | ![层叠卡纸海滩插画](docs/assets/exploration/geometric-card-standalone.webp) | ![像素海滩小场景](docs/assets/exploration/pixel-coast-standalone.webp) |
+同一张照片，可以变成蜡笔、丙烯、厚涂、贴纸、剪纸、刺绣、版画、漫画或像素世界。
+下面 24 种都已经放进同一个 Skill；点击名称或图片查看完整样张和调用提示。
 
-[查看全部 17 种样张、对照图和提示词](docs/explorations.md)。
+| [蜡笔小记](styles/crayon-memory-postcard/README.zh-CN.md) | [轻线丙烯](styles/editorial-painted-memory/README.zh-CN.md) | [珐琅拾光](styles/enamel-travel-keepsake/README.zh-CN.md) | [颜料小岛](styles/impasto-miniature-world/README.zh-CN.md) |
+| --- | --- | --- | --- |
+| [![蜡笔小记](styles/crayon-memory-postcard/assets/beach-centered-artwork.webp)](styles/crayon-memory-postcard/README.zh-CN.md) | [![轻线丙烯](styles/editorial-painted-memory/assets/beach-centered-artwork.webp)](styles/editorial-painted-memory/README.zh-CN.md) | [![珐琅拾光](styles/enamel-travel-keepsake/assets/beach-artwork.webp)](styles/enamel-travel-keepsake/README.zh-CN.md) | [![颜料小岛](styles/impasto-miniature-world/assets/beach-artwork.webp)](styles/impasto-miniature-world/README.zh-CN.md) |
+| [笔触叙事](styles/painted-editorial-reconstruction/README.zh-CN.md) | [照片奇遇](styles/photo-doodle-story/README.zh-CN.md) | [旅途印记](styles/rubber-stamp-travel-journal/README.zh-CN.md) | [日常贴贴](docs/explorations.md#little-day-stickers) |
+| [![笔触叙事](styles/painted-editorial-reconstruction/assets/beach-centered-artwork.webp)](styles/painted-editorial-reconstruction/README.zh-CN.md) | [![照片奇遇](styles/photo-doodle-story/assets/beach-artwork.webp)](styles/photo-doodle-story/README.zh-CN.md) | [![旅途印记](styles/rubber-stamp-travel-journal/assets/beach-artwork.webp)](styles/rubber-stamp-travel-journal/README.zh-CN.md) | [![日常贴贴](docs/assets/exploration/little-day-stickers-standalone.webp)](docs/explorations.md#little-day-stickers) |
+| [粉彩微风](docs/explorations.md#pastel-reverie) | [细线织忆](docs/explorations.md#threaded-memory) | [水彩晴光](docs/explorations.md#watercolor-light) | [叠纸诗篇](docs/explorations.md#paper-poetry) |
+| [![粉彩微风](docs/assets/exploration/pastel-reverie-standalone.webp)](docs/explorations.md#pastel-reverie) | [![细线织忆](docs/assets/exploration/threaded-memory-standalone.webp)](docs/explorations.md#threaded-memory) | [![水彩晴光](docs/assets/exploration/watercolor-light-standalone.webp)](docs/explorations.md#watercolor-light) | [![叠纸诗篇](docs/assets/exploration/paper-poetry-standalone.webp)](docs/explorations.md#paper-poetry) |
+| [孔版周末](docs/explorations.md#riso-weekend) | [蓝晒时光](docs/explorations.md#blue-hour-print) | [几笔之间](docs/explorations.md#a-few-lines) | [周末剪贴](docs/explorations.md#weekend-cutouts) |
+| [![孔版周末](docs/assets/exploration/riso-weekend-standalone.webp)](docs/explorations.md#riso-weekend) | [![蓝晒时光](docs/assets/exploration/blue-hour-print-standalone.webp)](docs/explorations.md#blue-hour-print) | [![几笔之间](docs/assets/exploration/a-few-lines-standalone.webp)](docs/explorations.md#a-few-lines) | [![周末剪贴](docs/assets/exploration/weekend-cutouts-standalone.webp)](docs/explorations.md#weekend-cutouts) |
+| [字里有海](docs/explorations.md#summer-wordscape) | [清爽漫画](docs/explorations.md#clean-comic) | [复古海报](docs/explorations.md#retro-flat) | [夏日套色](docs/explorations.md#grain-print) |
+| [![字里有海](docs/assets/exploration/summer-wordscape-standalone.webp)](docs/explorations.md#summer-wordscape) | [![清爽漫画](docs/assets/exploration/clean-comic-standalone.webp)](docs/explorations.md#clean-comic) | [![复古海报](docs/assets/exploration/retro-flat-standalone.webp)](docs/explorations.md#retro-flat) | [![夏日套色](docs/assets/exploration/grain-print-standalone.webp)](docs/explorations.md#grain-print) |
+| [几何卡纸](docs/explorations.md#geometric-card) | [像素假日](docs/explorations.md#pixel-coast) | [一扇海风](docs/explorations.md#arched-memory) | [蓝线贴纸](docs/explorations.md#navy-outline) |
+| [![几何卡纸](docs/assets/exploration/geometric-card-standalone.webp)](docs/explorations.md#geometric-card) | [![像素假日](docs/assets/exploration/pixel-coast-standalone.webp)](docs/explorations.md#pixel-coast) | [![一扇海风](docs/assets/exploration/arched-memory-standalone.webp)](docs/explorations.md#arched-memory) | [![蓝线贴纸](docs/assets/exploration/navy-outline-standalone.webp)](docs/explorations.md#navy-outline) |
+
+部分新风格目前先用海滩照片展示，后续会继续补充人物、城市和日常题材；但 24 种都已经拥有
+独立提示词，并由 `$albert-imagebook` 统一发现和调用。
 
 ```text
-用 $albert-imagebook，把这张照片做成探索版「蓝线贴纸」，不加字。
+用 $albert-imagebook，把这张照片做成「一扇海风」，不加字。
 ```
 
 ## 开始使用
@@ -85,72 +98,6 @@ npx --yes skills@1.5.24 add . --skill albert-imagebook --global --agent codex --
 需要支持 Skill 的 Agent 和图片生成/编辑能力。当前本地安装入口面向 Codex；
 生图使用宿主可用的图片工具。精确尺寸导出与拼接需要 **Node 22+、ImageMagick 7**。
 Skill 本身不提供图片模型或模型额度。
-
-## 风格手记
-
-同一张海滩照片，看看不同画法会保留什么。点击图片或名称，打开完整作品、原图对照和调用示例。
-每个风格页还收录了咖啡露台和树下街巷，方便比较不同题材。
-
-<table>
-  <tr>
-    <th width="50%"><a href="styles/crayon-memory-postcard/README.zh-CN.md">蜡笔小记</a></th>
-    <th width="50%"><a href="styles/editorial-painted-memory/README.zh-CN.md">轻线丙烯</a></th>
-  </tr>
-  <tr>
-    <td>
-      <a href="styles/crayon-memory-postcard/README.zh-CN.md"><img src="styles/crayon-memory-postcard/assets/beach-centered-artwork.webp" alt="蜡笔小记: 蜡粒纸感 · 歪拙线条 · 少量暖色"></a><br>
-      <strong>蜡粒纸感 · 歪拙线条 · 少量暖色</strong><br>
-      把一次散步、一段旅程画成随手留下的蜡笔小记，留下动作和记忆里的颜色。
-    </td>
-    <td>
-      <a href="styles/editorial-painted-memory/README.zh-CN.md"><img src="styles/editorial-painted-memory/assets/beach-centered-artwork.webp" alt="轻线丙烯: 纤细手线 · 丙烯平涂 · 简洁叙事"></a><br>
-      <strong>纤细手线 · 丙烯平涂 · 简洁叙事</strong><br>
-      从热闹照片中选出一个关系，让几根细线和几块颜色讲完故事。
-    </td>
-  </tr>
-  <tr>
-    <th width="50%"><a href="styles/enamel-travel-keepsake/README.zh-CN.md">珐琅拾光</a></th>
-    <th width="50%"><a href="styles/impasto-miniature-world/README.zh-CN.md">颜料小岛</a></th>
-  </tr>
-  <tr>
-    <td>
-      <a href="styles/enamel-travel-keepsake/README.zh-CN.md"><img src="styles/enamel-travel-keepsake/assets/beach-artwork.webp" alt="珐琅拾光: 小型纪念物 · 金属轮廓 · 珐琅光泽"></a><br>
-      <strong>小型纪念物 · 金属轮廓 · 珐琅光泽</strong><br>
-      把照片里最值得记住的轮廓，收成一枚有厚度、有光泽的小小珐琅纪念物。
-    </td>
-    <td>
-      <a href="styles/impasto-miniature-world/README.zh-CN.md"><img src="styles/impasto-miniature-world/assets/beach-artwork.webp" alt="颜料小岛: 厚涂颜料 · 立体刀痕 · 纸上微缩景观"></a><br>
-      <strong>厚涂颜料 · 立体刀痕 · 纸上微缩景观</strong><br>
-      把风景和人物堆塑成纸上的颜料小岛，让夕阳、树影和浪花有摸得到的厚度。
-    </td>
-  </tr>
-  <tr>
-    <th width="50%"><a href="styles/painted-editorial-reconstruction/README.zh-CN.md">笔触叙事</a></th>
-    <th width="50%"><a href="styles/photo-doodle-story/README.zh-CN.md">照片奇遇</a></th>
-  </tr>
-  <tr>
-    <td>
-      <a href="styles/painted-editorial-reconstruction/README.zh-CN.md"><img src="styles/painted-editorial-reconstruction/assets/beach-centered-artwork.webp" alt="笔触叙事: 宽笔触 · 大色面 · 动作与气氛"></a><br>
-      <strong>宽笔触 · 大色面 · 动作与气氛</strong><br>
-      用几笔有方向的颜色重讲照片里的动作和气氛，让画面像一页有故事的插画。
-    </td>
-    <td>
-      <a href="styles/photo-doodle-story/README.zh-CN.md"><img src="styles/photo-doodle-story/assets/beach-artwork.webp" alt="照片奇遇: 真实照片主体 · 黑线小人 · 微型幽默"></a><br>
-      <strong>真实照片主体 · 黑线小人 · 微型幽默</strong><br>
-      让照片里的人和物保持真实，再邀请几个手绘小人进来，发生一点小小的奇遇。
-    </td>
-  </tr>
-  <tr>
-    <th width="50%"><a href="styles/rubber-stamp-travel-journal/README.zh-CN.md">旅途印记</a></th>
-  </tr>
-  <tr>
-    <td>
-      <a href="styles/rubber-stamp-travel-journal/README.zh-CN.md"><img src="styles/rubber-stamp-travel-journal/assets/beach-artwork.webp" alt="旅途印记: 手刻轮廓 · 错位套印 · 温暖旧纸"></a><br>
-      <strong>手刻轮廓 · 错位套印 · 温暖旧纸</strong><br>
-      把一座屋顶、一条街或一段海岸，印成旅行手账里值得收下的一枚彩色章印。
-    </td>
-  </tr>
-</table>
 
 ## 一张作品，也是一张可以分享的图
 
