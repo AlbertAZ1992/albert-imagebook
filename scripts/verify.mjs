@@ -62,12 +62,22 @@ async function main() {
   const styles = files.filter((file) =>
     path.relative(root, file).match(/^styles\/[^/]+\/prompt\.md$/),
   );
-  assert(styles.length > 0, "No style prompts found");
+  assert(styles.length === 24, `Expected 24 style prompts; found ${styles.length}`);
   for (const filename of styles) {
     const text = await readFile(filename, "utf8");
     const bodies = text.split(/^## Prompt\s*$/m);
     assert(bodies.length === 2 && bodies[1].trim(), `Missing prompt body: ${filename}`);
     assert(/^# .+\n/.test(text), `Missing style title: ${filename}`);
+  }
+  const guides = await Promise.all([
+    readFile(path.join(root, "README.md"), "utf8"),
+    readFile(path.join(root, "README.zh-CN.md"), "utf8"),
+  ]);
+  for (const filename of styles) {
+    const styleId = path.basename(path.dirname(filename));
+    for (const guide of guides) {
+      assert(guide.includes(styleId), `README gallery is missing style: ${styleId}`);
+    }
   }
   await Promise.all(files.map(verifyLinks));
   console.log(`One installable Skill, ${styles.length} style prompts; local links resolve.`);

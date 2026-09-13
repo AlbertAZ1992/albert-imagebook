@@ -4,15 +4,15 @@
 
 ### Turn the moments you photograph into little artworks worth keeping.
 
-**One Skill. One command. A growing photo-to-art style book for Codex.**
+**24 photo-to-art styles. One Skill. One command.**
 
-[简体中文](README.zh-CN.md) · [Browse styles](#the-style-book) · [Get started](#get-started) · [Add a style](CONTRIBUTING.md)
+[简体中文](README.zh-CN.md) · [24 styles](#style-book) · [Get started](#get-started) · [Add a style](CONTRIBUTING.md)
 
 </div>
 
 **Bring a photo → choose a style → save your artwork.** Turn people, travel and everyday
 photographs into little paper-textured artworks, with an optional original-and-art comparison.
-One Skill includes the whole style library.
+One Skill includes all 24 styles.
 
 | Your photograph | Recalled in Crayon Notes |
 | --- | --- |
@@ -27,24 +27,38 @@ The original [Image Skillbook](https://github.com/AlbertAZ1992/image-skillbook) 
 styles as seven independently installable Skills. That made each style easy to test on its own,
 but made one creative library feel like seven separate products to discover, install and invoke.
 
-Albert's Imagebook brings the shared workflow and every style under one `$albert-imagebook`.
+Albert's Imagebook brings the shared workflow and 24 styles under one `$albert-imagebook`.
 Install it once, name the look you want, and switch styles without learning another command.
 New styles can join the same book instead of becoming new SKUs. Active style development
 continues here; the original independent Skills remain available for existing users.
 
-## Explore photo stickers, paper cutouts and pixel art
+<a id="style-book"></a>
 
-**7 established styles + 17 experimental directions in one Skill.**
-The established styles have three photo subjects each; the studies compare one beach photo.
+## 24 photo-to-art styles
 
-| Navy Outline sticker | Geometric cardstock | Pixel Coast |
-| --- | --- | --- |
-| ![Navy outline photo sticker](docs/assets/exploration/navy-outline-standalone.webp) | ![Layered cardstock beach illustration](docs/assets/exploration/geometric-card-standalone.webp) | ![Pixel art beach miniature](docs/assets/exploration/pixel-coast-standalone.webp) |
+One photograph can become crayon, acrylic, impasto, stickers, paper cutouts, embroidery,
+printmaking, comics or a pixel world. Every style below is included in the same Skill.
+Open a name or image for its examples and invocation prompt.
 
-[Browse all 17 studies, comparisons and prompts](docs/explorations.md).
+| [Crayon Notes](styles/crayon-memory-postcard/README.md) | [Quiet Acrylic](styles/editorial-painted-memory/README.md) | [Enamel Keepsake](styles/enamel-travel-keepsake/README.md) | [Impasto Island](styles/impasto-miniature-world/README.md) |
+| --- | --- | --- | --- |
+| [![Crayon Notes](styles/crayon-memory-postcard/assets/beach-centered-artwork.webp)](styles/crayon-memory-postcard/README.md) | [![Quiet Acrylic](styles/editorial-painted-memory/assets/beach-centered-artwork.webp)](styles/editorial-painted-memory/README.md) | [![Enamel Keepsake](styles/enamel-travel-keepsake/assets/beach-artwork.webp)](styles/enamel-travel-keepsake/README.md) | [![Impasto Island](styles/impasto-miniature-world/assets/beach-artwork.webp)](styles/impasto-miniature-world/README.md) |
+| [Painterly Stories](styles/painted-editorial-reconstruction/README.md) | [Photo Play](styles/photo-doodle-story/README.md) | [Travel Stamps](styles/rubber-stamp-travel-journal/README.md) | [Little Day Stickers](docs/explorations.md#little-day-stickers) |
+| [![Painterly Stories](styles/painted-editorial-reconstruction/assets/beach-centered-artwork.webp)](styles/painted-editorial-reconstruction/README.md) | [![Photo Play](styles/photo-doodle-story/assets/beach-artwork.webp)](styles/photo-doodle-story/README.md) | [![Travel Stamps](styles/rubber-stamp-travel-journal/assets/beach-artwork.webp)](styles/rubber-stamp-travel-journal/README.md) | [![Little Day Stickers](docs/assets/exploration/little-day-stickers-standalone.webp)](docs/explorations.md#little-day-stickers) |
+| [Pastel Reverie](docs/explorations.md#pastel-reverie) | [Threaded Memory](docs/explorations.md#threaded-memory) | [Watercolor Light](docs/explorations.md#watercolor-light) | [Paper Poetry](docs/explorations.md#paper-poetry) |
+| [![Pastel Reverie](docs/assets/exploration/pastel-reverie-standalone.webp)](docs/explorations.md#pastel-reverie) | [![Threaded Memory](docs/assets/exploration/threaded-memory-standalone.webp)](docs/explorations.md#threaded-memory) | [![Watercolor Light](docs/assets/exploration/watercolor-light-standalone.webp)](docs/explorations.md#watercolor-light) | [![Paper Poetry](docs/assets/exploration/paper-poetry-standalone.webp)](docs/explorations.md#paper-poetry) |
+| [Riso Weekend](docs/explorations.md#riso-weekend) | [Blue Hour Print](docs/explorations.md#blue-hour-print) | [A Few Lines](docs/explorations.md#a-few-lines) | [Weekend Cutouts](docs/explorations.md#weekend-cutouts) |
+| [![Riso Weekend](docs/assets/exploration/riso-weekend-standalone.webp)](docs/explorations.md#riso-weekend) | [![Blue Hour Print](docs/assets/exploration/blue-hour-print-standalone.webp)](docs/explorations.md#blue-hour-print) | [![A Few Lines](docs/assets/exploration/a-few-lines-standalone.webp)](docs/explorations.md#a-few-lines) | [![Weekend Cutouts](docs/assets/exploration/weekend-cutouts-standalone.webp)](docs/explorations.md#weekend-cutouts) |
+| [Summer Wordscape](docs/explorations.md#summer-wordscape) | [Clean Comic](docs/explorations.md#clean-comic) | [Retro Flat](docs/explorations.md#retro-flat) | [Grain Print](docs/explorations.md#grain-print) |
+| [![Summer Wordscape](docs/assets/exploration/summer-wordscape-standalone.webp)](docs/explorations.md#summer-wordscape) | [![Clean Comic](docs/assets/exploration/clean-comic-standalone.webp)](docs/explorations.md#clean-comic) | [![Retro Flat](docs/assets/exploration/retro-flat-standalone.webp)](docs/explorations.md#retro-flat) | [![Grain Print](docs/assets/exploration/grain-print-standalone.webp)](docs/explorations.md#grain-print) |
+| [Geometric Card](docs/explorations.md#geometric-card) | [Pixel Coast](docs/explorations.md#pixel-coast) | [Arched Memory](docs/explorations.md#arched-memory) | [Navy Outline](docs/explorations.md#navy-outline) |
+| [![Geometric Card](docs/assets/exploration/geometric-card-standalone.webp)](docs/explorations.md#geometric-card) | [![Pixel Coast](docs/assets/exploration/pixel-coast-standalone.webp)](docs/explorations.md#pixel-coast) | [![Arched Memory](docs/assets/exploration/arched-memory-standalone.webp)](docs/explorations.md#arched-memory) | [![Navy Outline](docs/assets/exploration/navy-outline-standalone.webp)](docs/explorations.md#navy-outline) |
+
+Some newer styles currently have one beach study; more people, city and everyday subjects will
+follow. All 24 already have their own prompt file and are discovered through `$albert-imagebook`.
 
 ```text
-Use $albert-imagebook. Turn this photo into experimental navy-outline, no text.
+Use $albert-imagebook. Turn this photo into Arched Memory, no text.
 ```
 
 ## Get started
@@ -88,73 +102,6 @@ Need help choosing? Ask which two styles would suit your photo.
 Requires a Skill-compatible agent with image generation/editing. The local installer targets
 Codex; generation uses the host's available image tool. Exact PNG export and composition require
 **Node 22+ and ImageMagick 7**. Installing this Skill does not provide a model or image credits.
-
-## The style book
-
-One beach photograph, different ways to remember it. Open an image or title for the complete
-artwork, original comparison and an example request. Every style page also includes
-a café and a tree-lined street, so you can compare different subjects.
-
-<table>
-  <tr>
-    <th width="50%"><a href="styles/crayon-memory-postcard/README.md">Crayon Notes</a></th>
-    <th width="50%"><a href="styles/editorial-painted-memory/README.md">Quiet Acrylic</a></th>
-  </tr>
-  <tr>
-    <td>
-      <a href="styles/crayon-memory-postcard/README.md"><img src="styles/crayon-memory-postcard/assets/beach-centered-artwork.webp" alt="Crayon Notes: Wax grain · wonky lines · a few warm colors"></a><br>
-      <strong>Wax grain · wonky lines · a few warm colors</strong><br>
-      A small, imperfect crayon recollection of a walk, a trip, or an ordinary day.
-    </td>
-    <td>
-      <a href="styles/editorial-painted-memory/README.md"><img src="styles/editorial-painted-memory/assets/beach-centered-artwork.webp" alt="Quiet Acrylic: Fine lines · flat acrylic color · concise storytelling"></a><br>
-      <strong>Fine lines · flat acrylic color · concise storytelling</strong><br>
-      A few fine lines and matte color shapes tell one quiet story from your photograph.
-    </td>
-  </tr>
-  <tr>
-    <th width="50%"><a href="styles/enamel-travel-keepsake/README.md">Enamel Keepsake</a></th>
-    <th width="50%"><a href="styles/impasto-miniature-world/README.md">Impasto Island</a></th>
-  </tr>
-  <tr>
-    <td>
-      <a href="styles/enamel-travel-keepsake/README.md"><img src="styles/enamel-travel-keepsake/assets/beach-artwork.webp" alt="Enamel Keepsake: Tiny keepsake · metal outlines · enamel sheen"></a><br>
-      <strong>Tiny keepsake · metal outlines · enamel sheen</strong><br>
-      Keep a memorable silhouette as a small enamel object with real thickness and a soft glint.
-    </td>
-    <td>
-      <a href="styles/impasto-miniature-world/README.md"><img src="styles/impasto-miniature-world/assets/beach-artwork.webp" alt="Impasto Island: Thick pigment · palette-knife relief · paper island"></a><br>
-      <strong>Thick pigment · palette-knife relief · paper island</strong><br>
-      Sculpt a scene into a small island of thick paint, with ridges that catch the light.
-    </td>
-  </tr>
-  <tr>
-    <th width="50%"><a href="styles/painted-editorial-reconstruction/README.md">Painterly Stories</a></th>
-    <th width="50%"><a href="styles/photo-doodle-story/README.md">Photo Play</a></th>
-  </tr>
-  <tr>
-    <td>
-      <a href="styles/painted-editorial-reconstruction/README.md"><img src="styles/painted-editorial-reconstruction/assets/beach-centered-artwork.webp" alt="Painterly Stories: Broad brushwork · color planes · movement"></a><br>
-      <strong>Broad brushwork · color planes · movement</strong><br>
-      Retell the movement and atmosphere of a photograph with a few expressive painted shapes.
-    </td>
-    <td>
-      <a href="styles/photo-doodle-story/README.md"><img src="styles/photo-doodle-story/assets/beach-artwork.webp" alt="Photo Play: Real photo subjects · line characters · tiny humor"></a><br>
-      <strong>Real photo subjects · line characters · tiny humor</strong><br>
-      Keep the real photographic subject and invite a few tiny drawn characters into its story.
-    </td>
-  </tr>
-  <tr>
-    <th width="50%"><a href="styles/rubber-stamp-travel-journal/README.md">Travel Stamps</a></th>
-  </tr>
-  <tr>
-    <td>
-      <a href="styles/rubber-stamp-travel-journal/README.md"><img src="styles/rubber-stamp-travel-journal/assets/beach-artwork.webp" alt="Travel Stamps: Carved contours · imperfect registration · warm paper"></a><br>
-      <strong>Carved contours · imperfect registration · warm paper</strong><br>
-      Distill a roofline, street, or shoreline into a small layered ink impression worth keeping.
-    </td>
-  </tr>
-</table>
 
 ## Made to keep. Sized to share.
 
