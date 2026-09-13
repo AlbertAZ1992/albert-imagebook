@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+script_dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+repo_root=$(cd -- "$script_dir/.." && pwd)
+
+exec npx --yes --prefer-offline skills@1.5.24 add "$repo_root" \
+	--skill albert-imagebook \
+	--global \
+	--agent codex \
+	--yes

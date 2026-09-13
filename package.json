@@ -1,0 +1,43 @@
+{
+  "name": "albert-imagebook",
+  "version": "0.2.0",
+  "private": true,
+  "description": "One growing photo-to-art Skill for Codex, with illustrations, stickers, paper cutouts, pixel art, and exact-size comparisons.",
+  "keywords": [
+    "agent-skills",
+    "codex",
+    "photo-to-art",
+    "photo-to-illustration",
+    "image-generation",
+    "image-editing",
+    "gpt-image",
+    "crayon-art",
+    "impasto",
+    "photo-doodle",
+    "photo-to-sticker",
+    "pixel-art",
+    "paper-cut-art",
+    "creative-coding",
+    "imagebook"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "npm run lint && npm run verify && npm run verify:skills",
+    "install:local": "bash scripts/install-local.sh",
+    "lint": "npx --yes oxlint@1.82.0 scripts/*.mjs && npx --yes oxfmt@0.67.0 --check scripts/*.mjs",
+    "verify": "node scripts/verify.mjs",
+    "verify:skills": "npx --yes skills@1.5.24 add . --list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlbertAZ1992/albert-imagebook.git"
+  },
+  "homepage": "https://github.com/AlbertAZ1992/albert-imagebook#readme",
+  "bugs": {
+    "url": "https://github.com/AlbertAZ1992/albert-imagebook/issues"
+  }
+}

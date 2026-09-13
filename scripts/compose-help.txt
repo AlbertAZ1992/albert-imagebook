@@ -1,0 +1,30 @@
+Albert's Imagebook — exact image export (Node 22+, ImageMagick 7)
+
+Plan the artwork panel BEFORE generating it:
+  node scripts/compose.mjs --plan --layout top-bottom --preset portrait
+
+Compose original above artwork, each exactly half of a 1080x1440 PNG:
+  node scripts/compose.mjs --source photo.jpg --art art.png --out comparison.png \
+    --layout top-bottom --preset portrait
+
+Export the artwork by itself:
+  node scripts/compose.mjs --art art.png --out artwork.png --preset portrait
+
+Layouts: design-only (default), top-bottom, left-right.
+Presets: portrait (default), feed, square, story, landscape.
+Custom dimensions: --size 1600x1200 instead of --preset.
+Original: --photo-fit cover (default) fills its half without padding, cropping excess only.
+          --photo-fit contain keeps the whole photo with padding when explicitly requested.
+          --photo-gravity center (default) chooses the crop/placement anchor.
+          Other anchors: north, northeast, east, southeast, south, southwest, west, northwest.
+Inspect the crop for important subjects; e.g. --photo-gravity west retains a left-edge subject.
+Artwork must match the planned panel aspect; generate another composition for other aspects.
+Up to two pixels of model rounding are normalized; larger aspect mismatches are rejected.
+Original files and existing outputs are never overwritten. PNG output only.
+
+Breathing space and natural edges are composed by the image model inside the artwork.
+The exporter preserves the complete image; it adds no mat, crop, or feather mask to the artwork.
+  --background '#f6f3ed'  padding for photo-fit contain only (default warm white)
+
+The plan reports the final canvas and panel dimensions.
+Supply the complete generated artwork, including its paper/background, to --art.

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Albert’s Imagebook"
+  short_description: "Photo illustrations, stickers, paper cutouts and pixel art"
+  default_prompt: "Use $albert-imagebook to turn this photo into Impasto Island with the default framing and no text."
+
+policy:
+  allow_implicit_invocation: true

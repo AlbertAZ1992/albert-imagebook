@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+.local/
+.local-recipes/
+.local_scripts/
+local-scripts/
+outputs/
+output/
+docs/sharing-draft.zh-CN.md
+prompt-inbox/*
+!prompt-inbox/README.md
