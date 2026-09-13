@@ -79,8 +79,15 @@ async function main() {
       assert(guide.includes(styleId), `README gallery is missing style: ${styleId}`);
     }
   }
+  const llms = await readFile(path.join(root, "llms.txt"), "utf8");
+  assert(llms.endsWith("\n"), "llms.txt needs a final newline");
+  assert(llms.includes("24 photo-to-art styles"), "llms.txt needs the library size");
+  assert(llms.includes("AlbertAZ1992/albert-imagebook"), "llms.txt needs the public repository");
+  const packageData = JSON.parse(await readFile(path.join(root, "package.json"), "utf8"));
+  assert(packageData.description.includes("24"), "Package description needs the library size");
+  assert(packageData.keywords.includes("photo-to-art"), "Package keywords need photo-to-art");
   await Promise.all(files.map(verifyLinks));
-  console.log(`One installable Skill, ${styles.length} style prompts; local links resolve.`);
+  console.log(`Verified one Skill, ${styles.length} styles, and agent-readable SEO metadata.`);
 }
 
 main().catch((error) => {

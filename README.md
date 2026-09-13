@@ -1,18 +1,20 @@
 <div align="center">
 
-# Albert’s Imagebook · Photo-to-Art Skill
+# Albert’s Imagebook — 24 Photo-to-Art Styles for Codex
 
 ### Turn the moments you photograph into little artworks worth keeping.
 
-**24 photo-to-art styles. One Skill. One command.**
+**Open-source Codex image Skill. 24 styles. One command.**
 
-[简体中文](README.zh-CN.md) · [24 styles](#style-book) · [Get started](#get-started) · [Add a style](CONTRIBUTING.md)
+[简体中文](README.zh-CN.md) · [What it creates](#what-can-alberts-imagebook-create) ·
+[24 styles](#style-book) · [Get started](#get-started) · [Add a style](CONTRIBUTING.md)
 
 </div>
 
-**Bring a photo → choose a style → save your artwork.** Turn people, travel and everyday
-photographs into little paper-textured artworks, with an optional original-and-art comparison.
-One Skill includes all 24 styles.
+Albert’s Imagebook is an **open-source Codex Skill for turning photos into art**. Install one
+`$albert-imagebook` Skill to transform personal, portrait and travel photography into 24 reusable
+illustration styles, including stickers, paper cutouts, printmaking, collage, pixel art and painted
+keepsakes. It can also export exact-size social images and original-versus-art comparisons.
 
 | Your photograph | Recalled in Crayon Notes |
 | --- | --- |
@@ -20,6 +22,21 @@ One Skill includes all 24 styles.
 
 Keep the shared moment and gestures; suggest the setting with a few colors and exposed paper.
 Choose Quiet Acrylic for a small, spacious drawing, or Impasto Island for visible paint relief.
+
+## What can Albert's Imagebook create?
+
+Albert's Imagebook is a photo-to-art workflow for Codex, not a one-off prompt collection. Give it a
+photo, name a style or ask for a recommendation, and it handles the art direction, composition,
+output size and optional comparison layout through one installable Skill.
+
+| Search or creative intent | What the Skill provides |
+| --- | --- |
+| Photo to illustration | Crayon, acrylic, watercolor, impasto, comic and editorial styles |
+| Photo to sticker | Enamel, doodle, navy-outline and small sticker-sheet treatments |
+| Travel photo art | Rubber stamps, paper cutouts, riso, cyanotype and keepsake compositions |
+| Pixel art from a photo | Crisp miniature pixel scenes that preserve the source story |
+| Social-media image export | Exact 3:4, 4:5, 1:1, 9:16 and 16:9 PNG output |
+| Before-and-after comparison | Exact top-bottom or left-right 50:50 layouts |
 
 ## Why one Imagebook?
 
@@ -139,24 +156,43 @@ original photo in its own half.
 
 ## Frequently asked questions
 
-**Which style should I start with?** Try Crayon Notes for everyday memories, Quiet Acrylic for
-simple human relationships, or Impasto Island for thick paint. Photo Play keeps the main subject
-photographic. You can also ask the agent to recommend a style for your photo.
+### Is Albert's Imagebook one Codex Skill or a prompt library?
 
-**Will my result match an example exactly?** Examples show actual outputs, not fixed templates.
-Subjects, composition and details vary with the source photo and each generation.
+It is one installable Codex Skill containing 24 reusable style directions and a shared image
+workflow. You invoke `$albert-imagebook` once, then choose or switch styles by name.
 
-**What does 65% mean?** It limits the overall scene footprint within the artwork, including
-gaps inside the group. Default composition is optically centered and usually aims around 45–55%
-or less. In comparisons, the original photo still fills its half.
+### Which style should I start with?
 
-**Can I use another agent?** This repository provides a standard SKILL.md; the installation
-example and verified environment use Codex. Another host needs Skill support, reference-image
-generation and access to the local export command.
+Try Crayon Notes for everyday memories, Quiet Acrylic for simple human relationships, or Impasto
+Island for thick paint. Photo Play keeps the main subject photographic. You can also ask the agent
+to recommend a style for your photo.
+
+### Will my result match an example exactly?
+
+Examples show actual outputs, not fixed templates. Subjects, composition and details vary with the
+source photo and each generation.
+
+### What does the 65% composition ceiling mean?
+
+It limits the overall scene footprint within the artwork, including gaps inside the group. Default
+composition is optically centered and usually aims around 45–55% or less. In comparisons, the
+original photo still fills its half.
+
+### Which image model does it use?
+
+The Skill uses the image-generation or image-editing tool available in its host. The documented and
+verified installation targets Codex; the Skill itself does not include a model or image credits.
+
+### Can I use another agent?
+
+This repository provides a standard SKILL.md; the installation example and verified environment
+use Codex. Another host needs Skill support, reference-image generation and access to the local
+export command.
 
 ## Contribute a style
 
 Describe the visual treatment in one prompt file, then show what it produces.
 The [contributing guide](CONTRIBUTING.md) covers structure, composition and checks.
 
-[MIT License](LICENSE) · [Sources and inspiration](docs/sources.md) · [Agent instructions](SKILL.md)
+[MIT License](LICENSE) · [Sources and inspiration](docs/sources.md) ·
+[Agent instructions](SKILL.md) · [AI-readable summary](llms.txt)
