@@ -1,0 +1,51 @@
+# Albert's Imagebook
+
+> Albert's Imagebook is an open-source Codex Skill that transforms personal, portrait and travel
+> photos into 24 reusable illustration, sticker, paper, print, collage and pixel-art styles.
+
+Repository: https://github.com/AlbertAZ1992/albert-imagebook
+License: MIT
+Skill name: albert-imagebook
+Current library: 24 photo-to-art styles
+Default output: one 1080x1440 portrait artwork with no added text
+
+## Install
+
+Run:
+
+    npx --yes skills@1.5.24 add AlbertAZ1992/albert-imagebook \
+      --skill albert-imagebook --global --agent codex --yes
+
+Then start a new Codex task, attach a photo, and ask:
+
+    Use $albert-imagebook. Turn this photo into Impasto Island, no text.
+
+## What it can do
+
+- Transform a photo into an illustration, sticker, paper cutout, print, collage or pixel artwork.
+- Recommend suitable styles after inspecting the source photograph.
+- Export exact 3:4, 4:5, 1:1, 9:16 or 16:9 PNG files.
+- Compose original-versus-art comparisons with exact 50:50 panels.
+- Process multiple photos or styles while keeping every source independent.
+
+## Included styles
+
+A Few Lines, Arched Memory, Blue Hour Print, Clean Comic, Crayon Notes, Quiet Acrylic,
+Enamel Keepsake, Geometric Card, Grain Print, Impasto Island, Little Day Stickers, Navy Outline,
+Painterly Stories, Paper Poetry, Pastel Reverie, Photo Play, Pixel Coast, Retro Flat, Riso Weekend,
+Travel Stamps, Summer Wordscape, Threaded Memory, Watercolor Light, and Weekend Cutouts.
+
+## Documentation
+
+- English overview and installation: https://github.com/AlbertAZ1992/albert-imagebook#readme
+- Chinese overview: https://github.com/AlbertAZ1992/albert-imagebook/blob/main/README.zh-CN.md
+- Complete style gallery: https://github.com/AlbertAZ1992/albert-imagebook#24-photo-to-art-styles
+- Newer style studies: https://github.com/AlbertAZ1992/albert-imagebook/blob/main/docs/explorations.md
+- Skill execution contract: https://github.com/AlbertAZ1992/albert-imagebook/blob/main/SKILL.md
+- Contribution guide: https://github.com/AlbertAZ1992/albert-imagebook/blob/main/CONTRIBUTING.md
+
+## Product boundary
+
+Albert's Imagebook provides the reusable Skill, style directions and exact-size export workflow.
+It requires a Skill-compatible host with image generation or editing. The Skill does not include
+an image model or image credits.
